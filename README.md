@@ -46,6 +46,18 @@ tar -xvf LibriSpeech.tar.gz
 LibriAdapt.ipynb
 ```
 
+Unified model for all languages has been proposed through few shot learning for resource poor languages by [transliterating](https://arxiv.org/abs/1611.06722) all transcriptions into english and tuning one of the state-of-the are [foundation model](https://huggingface.co/transformers/model_doc/xlsr_wav2vec2.html).
+
+### Fine Tuning [XLSR](https://arxiv.org/abs/2006.13979) on resource poor languages
+```angular2html
+
+## could directly work with interactive notebook
+## Tamil
+Fine-Tuning-Tamil.ipynb
+## Hindi
+Fine-Tuning-Hindi.ipynb
+```
+
 ### Benchmarking [Common Voice](https://commonvoice.mozilla.org/en/datasets)
 ```angular2html
 ## Getting CommonVoice clean and augumented noise corpus
