@@ -1,3 +1,9 @@
+.ipynb_checkpoints
+wav2vec2-large-rbg-tamil
+wav2vec2-large-rbg-hindi
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
