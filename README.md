@@ -33,7 +33,7 @@ pip install -r requirements.txt
 gdown --id 1nCWHed_DIo6tsC5BkxAbzqbg2QjtwMk5
 tar -xvf LibriSpeech.tar.gz
 ## could directly work with interactive notebook
-Benchmarking LibriSpeech.ipynb
+LibriSpeech.ipynb
 ```
 
 ### Benchmarking [Libre-Adapt](https://github.com/akhilmathurs/libriadapt)
@@ -52,17 +52,32 @@ Unified model for all languages has been proposed through few shot learning for 
 ```angular2html
 
 ## could directly work with interactive notebook
-## Tamil
+## Tamil - Transliterated
 Fine-Tuning-Tamil.ipynb
-## Hindi
-Fine-Tuning-Hindi.ipynb
+## Tamil - Native
+Fine-Tuning-Tamil-Native.ipynb
 ```
 
-### Benchmarking [Common Voice](https://commonvoice.mozilla.org/en/datasets)
+### Benchmarking [Common Voice](https://commonvoice.mozilla.org/en/datasets) - Tamil
 ```angular2html
 ## Getting CommonVoice clean and augumented noise corpus
 gdown --id 13xtx6VL4H8MBENrev9-QfEQHV5dST8xg
 tar -xvf CommonVoice.tar.gz
 ## could directly work with interactive notebook
-CommonVoice.ipynb
+## Tamil - Transliterated
+CommonVoice_Transliterated.ipynb
+## Tamil - Native
+CommonVoice_Native.ipynb
+```
+
+
+### Benchmarking Microsoft Corpus](https://msropendata.com/datasets/7230b4b1-912d-400e-be58-f84e0512985e) - Tamil
+```angular2html
+## Getting MSR corpus
+
+## could directly work with interactive notebook
+## Tamil - Transliterated
+MSR_Transliterated.ipynb
+## Tamil - Native
+MSR_Native.ipynb
 ```
