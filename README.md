@@ -1,5 +1,5 @@
-# t-SEED: Traversing Speech through Enhancer, Encoder and Decoder for Reliable Recognition
-This repo contains code for reproducing results in "t-SEED: Traversing Speech through Enhancer, Encoder and Decoder for Reliable Recognition".
+# t-SEED: Multilingual Speech Recognizer for Tamil and English Languages
+This repo contains code for reproducing results in "t-SEED: Multilingual Speech Recognizer for Tamil and English Languages".
 
 ### Getting the Repository
 ```angular2html
