@@ -1,6 +1,24 @@
 # t-SEED: Multilingual Speech Recognizer for Tamil and English Languages
 This repo contains code for reproducing results in "t-SEED: Multilingual Speech Recognizer for Tamil and English Languages".
 
+
+
+## Contents
+
+| S.No |  Division                             | Description                                                          | Link           |
+|:----:|    :------------:                        |     :--------------:                                                   |    :--------:        |
+| 1    | Tamil Native Training   | Training foundation model based on Tamil Characters Vocabulary |[Link](https://github.com/rbg-research/t-seed/tree/main/Training-Tamil-Native.ipynb)|
+| 2    | Tamil Transliterated Training  | Training foundation model based on English Characters Vocabulary (Tamil Characters are Transliterated to English)|[Link](https://github.com/rbg-research/t-seed/tree/main/Training-Tamil-Transliterated.ipynb)|
+| 3    | Common Voice Evaluation - Native| Evaluating Common Voice Test dataset on Trained Model in Native Language|[Link](https://github.com/rbg-research/t-seed/tree/main/Ta-Evaluation-CV-Native.ipynb)|
+| 4    | Common Voice Evaluation - Transliterated| Evaluating Common Voice Test dataset on Trained Model in Transliterated Language|[Link](https://github.com/rbg-research/t-seed/tree/main/Ta-Evaluation-CV-Transliterated.ipynb)|
+| 5    | MSR Evaluation - Native| Evaluating Microsoft Research Corpus Test dataset on Trained Model in Native Language|[Link](https://github.com/rbg-research/t-seed/tree/main/Ta-Evaluation-MSR-Native.ipynb)|
+| 6    | MSR Evaluation - Transliterated| Evaluating Microsoft Research Corpus Test dataset on Trained Model in Transliterated Language|[Link](https://github.com/rbg-research/t-seed/tree/main/Ta-Evaluation-MSR-Transliterated.ipynb)|
+| 7    | LibriSpeech Evaluation    |Evaluating LibriSpeech Test dataset on Trained Model in Transliterated Language|[Link](https://github.com/rbg-research/t-seed/tree/main/En-Evaluation-LibriSpeech.ipynb)|
+| 8    | LibriAdapt Evaluation    |Evaluating LibriAdapt Test dataset on Trained Model in Transliterated Language|[Link](https://github.com/rbg-research/t-seed/tree/main/En-Evaluation-LibriAdapt.ipynb)|
+| 9    | Results    |Noise Variant Results obtained for Common Voice, LibriSpeech and LibriAdapt |[Link](https://github.com/rbg-research/t-seed/tree/main/results)|
+
+
+
 ### Getting the Repository
 ```angular2html
 git clone https://github.com/rbg-research/t-seed
